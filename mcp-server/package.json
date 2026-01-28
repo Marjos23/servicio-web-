@@ -1,0 +1,19 @@
+{
+  "name": "exam2p-audit-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for exam2p audit queries",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  }
+}
